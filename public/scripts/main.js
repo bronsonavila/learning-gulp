@@ -4,13 +4,15 @@ class Person {
   }
 
   hello() {
-    return typeof this.name === 'string' ? `Hello, I am ${this.name}!` : 'Hello!';
+    return typeof this.name === 'string'
+      ? `Hello, I am ${this.name}!`
+      : 'Hello!';
   }
 }
 
 const person = new Person('Sam');
 const greetingHTML = templates['greeting']({
   message: person.hello()
-})
+});
 
 document.write(greetingHTML);
