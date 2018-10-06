@@ -4,7 +4,7 @@ class Person {
   }
 
   hello() {
-    return typeof this.name ? `Hello, I am ${this.name}!` : 'Hello!';
+    return typeof this.name === 'string' ? `Hello, I am ${this.name}!` : 'Hello!';
   }
 }
 
