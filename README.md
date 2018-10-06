@@ -1,4 +1,4 @@
-# Learning Gulp: [Automate Web Development With Gulp JS](https://www.udemy.com/learn-gulp/)
+# Learning Gulp
 
 ## About
 
